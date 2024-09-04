@@ -7,6 +7,8 @@ TagManager:
   - Hat
   - Shirt
   - Accessory
+  - Makeup
+  - Glasses
   layers:
   - Default
   - TransparentFX

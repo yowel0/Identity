@@ -16,7 +16,8 @@ public class ClothingButtonScript : MonoBehaviour
     void Start()
     {
         image = GetComponent<Image>();
-        image.sprite = Clothing.GetComponent<SpriteRenderer>().sprite;
+        transform.GetChild(0).GetComponent<Image>().sprite = Clothing.GetComponent<SpriteRenderer>().sprite;
+        // image.sprite = Clothing.GetComponent<SpriteRenderer>().sprite;
     }
 
     // Update is called once per frame
@@ -26,7 +27,6 @@ public class ClothingButtonScript : MonoBehaviour
     }
 
     public void OnClick(){
-        print("clicked");
         if (active == false){
             Activate();
         }
@@ -36,7 +36,7 @@ public class ClothingButtonScript : MonoBehaviour
     }
 
     void Activate(){
-        image.color = Color.green;
+        image.color = new Color (0,1,0,0.5f);
         if (Clothing.tag != null || Clothing.tag != "Accessory"){
             foreach (GameObject i in GameObject.FindGameObjectsWithTag(Clothing.tag)){
                 //Destroy(i);
@@ -50,13 +50,13 @@ public class ClothingButtonScript : MonoBehaviour
         }
         initializedPrefab = Instantiate(Clothing, GameObject.FindWithTag("Player").transform);
         if (Clothing.tag == "Accessory" || Clothing.tag == "Glasses"){
-            initializedPrefab.transform.position += new Vector3(0,0,-1);
+            initializedPrefab.transform.position += new Vector3(0,0,-1.5f);
         }
         active = true;
     }
 
     void Deactivate(){
-        image.color = Color.white;
+        image.color = new Color (1,1,1,0.05f);
         Destroy(initializedPrefab);
         active = false;
     }
