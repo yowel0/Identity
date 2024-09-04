@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -15,8 +14,10 @@ public class AudioManager : MonoBehaviour
         musicSource.clip = background;
         musicSource.Play();
 
-        musicSource.clip = SFX;
-        musicSource.Play();
+        SFXSource.clip = SFX;
+        SFXSource.Play();
+
+        
     }
 
     public void PlaySFX(AudioClip clip) 
