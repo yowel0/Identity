@@ -316,7 +316,7 @@ MonoBehaviour:
   - {fileID: 4550372208315265214, guid: deb814dc0a0f6ff47b16b6fd5114f210, type: 3}
   player: {fileID: 1234226700}
   restartScreen: {fileID: 5709498195418831771, guid: cb0c55097672c3c479ffb85bcd4b61aa, type: 3}
-  screenSprite: {fileID: 21300000, guid: 41c087df4ad328d4fac01f47a8743fb4, type: 3}
+  screenSprite: {fileID: 21300000, guid: 07f2d72628b68514183f22621cfddf88, type: 3}
 --- !u!114 &278051961
 MonoBehaviour:
   m_ObjectHideFlags: 0
