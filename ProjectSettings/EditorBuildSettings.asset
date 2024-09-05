@@ -22,9 +22,12 @@ EditorBuildSettings:
     guid: 201adf89600d13e47992495fd2b1dd44
   - enabled: 1
     path: Assets/Scenes/Intro - frame 5.unity
-    guid: d0347941ed4e6e84aba887d6b063944f
+    guid: 55eb6560bbb7a434aa06e4c5e0527647
   - enabled: 1
     path: Assets/Scenes/Intro - frame 6.unity
+    guid: d0347941ed4e6e84aba887d6b063944f
+  - enabled: 1
+    path: Assets/Scenes/Intro - frame 7.unity
     guid: 121ca8c5483409140aebdf5118eeab0a
   - enabled: 1
     path: Assets/Scenes/Level 1 Shopping Mall Scene.unity

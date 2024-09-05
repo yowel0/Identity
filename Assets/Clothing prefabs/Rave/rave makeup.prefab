@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5615280566338242332}
   m_Layer: 0
   m_Name: rave makeup
-  m_TagString: Untagged
+  m_TagString: Makeup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
