@@ -312,12 +312,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requirements:
-  - {fileID: 4535773607938070570, guid: 5c6258ae6dd34204c92e754e73c633b8, type: 3}
-  - {fileID: 3868220017085036915, guid: aafe45f5eb3d4a345bb5c9e22291929e, type: 3}
-  - {fileID: 3569925089106317503, guid: 42403a4df37bfe24b9ef816a65f70c4e, type: 3}
-  - {fileID: 571551608699634358, guid: 1f0ef8af448657a45b5c6b5df782472b, type: 3}
-  - {fileID: 4681025550465267681, guid: e9fdac906682419458b1f79440f4a15d, type: 3}
+  - {fileID: 3762361734534980550, guid: 0e9dc2d8e3e551e40bc3594345b233c9, type: 3}
+  - {fileID: 4550372208315265214, guid: deb814dc0a0f6ff47b16b6fd5114f210, type: 3}
   player: {fileID: 1234226700}
+  restartScreen: {fileID: 5709498195418831771, guid: cb0c55097672c3c479ffb85bcd4b61aa, type: 3}
+  screenSprite: {fileID: 21300000, guid: 41c087df4ad328d4fac01f47a8743fb4, type: 3}
 --- !u!114 &278051961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1512,7 +1511,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 20, y: 0}
   m_SizeDelta: {x: 301, y: 458}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1845442479

@@ -12,9 +12,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1 Shopping Mall Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Level 1 Win Screen.unity
+    guid: 1f7dd143912f31d48a6834973064e3a3
+  - enabled: 1
     path: Assets/Scenes/Level 2 Rave.unity
     guid: 9195fd2ffb201ef4b8c6a1410b7efdd2
   - enabled: 1
+    path: Assets/Scenes/Level 2 Win Screen.unity
+    guid: 352e565396f182c4ca65889fd5668f77
+  - enabled: 1
     path: Assets/Scenes/Level 3 Car Meet.unity
     guid: cd8940ae316391c409117f4dbc0e58ef
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Win Screen.unity
+    guid: 0f148bc9cc31aa84982b00e5ad22a220
+  - enabled: 1
+    path: Assets/Scenes/Level 4 Crazy.unity
+    guid: 72c07b2e5bf53ae419ee6ef6534b3ec8
+  - enabled: 1
+    path: Assets/Scenes/Level 4 Win Screen.unity
+    guid: a70db57c5508e3a4e8de7cde3adffa78
+  - enabled: 1
+    path: Assets/Scenes/Level 5 Office.unity
+    guid: a9ba8cc1d9d973448a05e693cb6b420a
   m_configObjects: {}

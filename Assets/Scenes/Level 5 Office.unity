@@ -312,12 +312,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requirements:
-  - {fileID: 4535773607938070570, guid: 5c6258ae6dd34204c92e754e73c633b8, type: 3}
-  - {fileID: 3868220017085036915, guid: aafe45f5eb3d4a345bb5c9e22291929e, type: 3}
-  - {fileID: 3569925089106317503, guid: 42403a4df37bfe24b9ef816a65f70c4e, type: 3}
-  - {fileID: 571551608699634358, guid: 1f0ef8af448657a45b5c6b5df782472b, type: 3}
-  - {fileID: 4681025550465267681, guid: e9fdac906682419458b1f79440f4a15d, type: 3}
+  - {fileID: 7440083350382748300, guid: 9c153e2f04b26544baab0a1b6dee93e4, type: 3}
+  - {fileID: 3362526574441393742, guid: b833b54142e0153439704f65373e4660, type: 3}
   player: {fileID: 1234226700}
+  restartScreen: {fileID: 0}
+  screenSprite: {fileID: 0}
 --- !u!114 &278051961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -604,142 +603,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &529146507
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 529146508}
-  - component: {fileID: 529146510}
-  - component: {fileID: 529146509}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &529146508
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529146507}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1310935597}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &529146509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529146507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'Car Meet
-
-'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &529146510
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529146507}
-  m_CullTransparentMesh: 1
 --- !u!1 &633470274
 GameObject:
   m_ObjectHideFlags: 0
@@ -797,9 +660,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-    Shopping spree'
+  m_text: The boss wants to see you
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 049b4c61c211bf343897b74a025d4efc, type: 2}
   m_sharedMaterial: {fileID: 5507256309433616703, guid: 049b4c61c211bf343897b74a025d4efc, type: 2}
@@ -826,13 +687,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.5
-  m_fontSizeBase: 27.5
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -992,18 +853,8 @@ MonoBehaviour:
   button: {fileID: 8745975155767247781, guid: 3c604a98e9f447f498d93493c376409c, type: 3}
   uiParent: {fileID: 297901295}
   clothes:
-  - {fileID: 2451631470541075734, guid: fc959e6026a7a804f97f2d70e0361971, type: 3}
-  - {fileID: 4894740297792781219, guid: 7ec8349bb56f99f4cb06b33ce72e659c, type: 3}
-  - {fileID: 2818043525490538755, guid: bfc275c8813acf442a093b83f45b1399, type: 3}
-  - {fileID: 5364113833332273809, guid: e6f4dc3bf9096c1468f2dc730a404000, type: 3}
-  - {fileID: 6278479187943435083, guid: de3c621288085654787cd9bd3df3840f, type: 3}
-  - {fileID: 5492555161858189931, guid: b90465a51f873d443b66afc05f53d1cc, type: 3}
-  - {fileID: 6399457090053815676, guid: e89dacba2e0724043b5d8d36074f6cc3, type: 3}
-  - {fileID: 4535773607938070570, guid: 5c6258ae6dd34204c92e754e73c633b8, type: 3}
-  - {fileID: 3868220017085036915, guid: aafe45f5eb3d4a345bb5c9e22291929e, type: 3}
-  - {fileID: 571551608699634358, guid: 1f0ef8af448657a45b5c6b5df782472b, type: 3}
-  - {fileID: 3569925089106317503, guid: 42403a4df37bfe24b9ef816a65f70c4e, type: 3}
-  - {fileID: 4681025550465267681, guid: e9fdac906682419458b1f79440f4a15d, type: 3}
+  - {fileID: 7440083350382748300, guid: 9c153e2f04b26544baab0a1b6dee93e4, type: 3}
+  - {fileID: 3362526574441393742, guid: b833b54142e0153439704f65373e4660, type: 3}
 --- !u!4 &895984581
 Transform:
   m_ObjectHideFlags: 0
@@ -1228,9 +1079,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\n\n\n\u25A1 Black is totally in right now.\n\n\u25A1 A little red in
-    my hair should do.\n\n\u25A1 The make up should fit my hair.\n\n\u25A1 Maybe
-    a choker."
+  m_text: '
+
+
+
+
+    I don''t have anything left...'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 049b4c61c211bf343897b74a025d4efc, type: 2}
   m_sharedMaterial: {fileID: 5507256309433616703, guid: 049b4c61c211bf343897b74a025d4efc, type: 2}
@@ -1404,7 +1258,6 @@ RectTransform:
   - {fileID: 1874137367}
   - {fileID: 1982355361}
   - {fileID: 278051959}
-  - {fileID: 529146508}
   - {fileID: 1774261468}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1470,7 +1323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dress up for: '
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 049b4c61c211bf343897b74a025d4efc, type: 2}
   m_sharedMaterial: {fileID: 5507256309433616703, guid: 049b4c61c211bf343897b74a025d4efc, type: 2}
@@ -1582,11 +1435,11 @@ RectTransform:
   - {fileID: 1305408652}
   m_Father: {fileID: 1310935597}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 4.7700195, y: -14.930054}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 20, y: 0}
   m_SizeDelta: {x: 301, y: 458}
-  m_Pivot: {x: 0, y: 1}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1774261469
 MonoBehaviour:
   m_ObjectHideFlags: 0

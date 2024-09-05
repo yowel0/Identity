@@ -2,11 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ContinueRequirementsScript : MonoBehaviour
 {
     public List<GameObject> requirements = new List<GameObject>();
     public GameObject player;
+
+    [Space]
+    public GameObject restartScreen;
+    public Sprite screenSprite;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +28,10 @@ public class ContinueRequirementsScript : MonoBehaviour
         if(isActiveInScene() == true){
             print("trueue");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else{
+            GameObject inst = Instantiate(restartScreen, GameObject.Find("Canvas").transform);
+            inst.GetComponent<Image>().sprite = screenSprite;
         }
     }
 

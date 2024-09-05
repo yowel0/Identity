@@ -448,9 +448,11 @@ MonoBehaviour:
   requirements:
   - {fileID: 6249388481460858025, guid: 3040082f8a79d5b49bd01fc9b59f2d89, type: 3}
   - {fileID: 920868409050369898, guid: 5bf302279e01320429cd822a2ad8c474, type: 3}
-  - {fileID: 6766114156849532739, guid: e60c40e5b5147bc41b694352f8b5069f, type: 3}
   - {fileID: 5689163984548130482, guid: 337dce3b70327174bbd6ed4b5a02c5fb, type: 3}
+  - {fileID: 5496904667979984874, guid: 4dc7cf93ad20cb042b53e7f46f87006c, type: 3}
   player: {fileID: 1234226700}
+  restartScreen: {fileID: 5709498195418831771, guid: cb0c55097672c3c479ffb85bcd4b61aa, type: 3}
+  screenSprite: {fileID: 21300000, guid: 0f18165435871674695214e516669420, type: 3}
 --- !u!114 &278051961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1061,7 +1063,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 20, y: 0}
   m_SizeDelta: {x: 301, y: 458}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &902558597
