@@ -9,6 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 5d5dc422df84f9945b177cef1efebaae
   - enabled: 1
+    path: Assets/Scenes/Intro - frame 1.unity
+    guid: 5e34bb1569eaf5c4e84e044909a2b2bd
+  - enabled: 1
+    path: Assets/Scenes/Intro - frame 2.unity
+    guid: 58ab659751dd14f40910c46a7b99bd74
+  - enabled: 1
+    path: Assets/Scenes/Intro - frame 3.unity
+    guid: 2de90f06c86d1f148950ca66883b332d
+  - enabled: 1
+    path: Assets/Scenes/Intro - frame 4.unity
+    guid: 201adf89600d13e47992495fd2b1dd44
+  - enabled: 1
+    path: Assets/Scenes/Intro - frame 5.unity
+    guid: d0347941ed4e6e84aba887d6b063944f
+  - enabled: 1
+    path: Assets/Scenes/Intro - frame 6.unity
+    guid: 121ca8c5483409140aebdf5118eeab0a
+  - enabled: 1
     path: Assets/Scenes/Level 1 Shopping Mall Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -35,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 5 Office.unity
     guid: a9ba8cc1d9d973448a05e693cb6b420a
+  - enabled: 1
+    path: Assets/Scenes/Ending screen.unity
+    guid: 85387540018ffcb479c8e2d1c2fd5af8
   m_configObjects: {}
