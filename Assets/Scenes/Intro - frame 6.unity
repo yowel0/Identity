@@ -1044,7 +1044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LMAOOO
+  m_text: Hi, I'm calling for the modeling job.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 049b4c61c211bf343897b74a025d4efc, type: 2}
   m_sharedMaterial: {fileID: 5507256309433616703, guid: 049b4c61c211bf343897b74a025d4efc, type: 2}

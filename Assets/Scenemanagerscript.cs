@@ -24,4 +24,9 @@ public class Scenemanagerscript : MonoBehaviour
     public void LoadNextScene (){
         SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1,LoadSceneMode.Single);
     }
+
+    public void RestartGaime()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
