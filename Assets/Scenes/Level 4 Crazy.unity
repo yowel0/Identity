@@ -1066,9 +1066,9 @@ MonoBehaviour:
   uiParent: {fileID: 297901295}
   clothes:
   - {fileID: 4550372208315265214, guid: deb814dc0a0f6ff47b16b6fd5114f210, type: 3}
-  - {fileID: 3762361734534980550, guid: 0e9dc2d8e3e551e40bc3594345b233c9, type: 3}
-  - {fileID: 2518056993912469440, guid: 25d6b2e2f34e68d4694643cffbf134ce, type: 3}
   - {fileID: 6943910555821596575, guid: fb39a63a22b1ca44198b525845179d89, type: 3}
+  - {fileID: 2518056993912469440, guid: 25d6b2e2f34e68d4694643cffbf134ce, type: 3}
+  - {fileID: 3762361734534980550, guid: 0e9dc2d8e3e551e40bc3594345b233c9, type: 3}
   - {fileID: 2518056993912469440, guid: 25d6b2e2f34e68d4694643cffbf134ce, type: 3}
 --- !u!4 &895984581
 Transform:
