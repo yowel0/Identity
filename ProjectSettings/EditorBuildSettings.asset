@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 5 Office.unity
     guid: a9ba8cc1d9d973448a05e693cb6b420a
+  - enabled: 1
+    path: Assets/Scenes/Ending screen.unity
+    guid: 85387540018ffcb479c8e2d1c2fd5af8
   m_configObjects: {}
